@@ -1,7 +1,7 @@
 ﻿using System.IO;
 
 Console.Write("Введите путь к  файлу: ");
-string filePath = Console.ReadLine()! + ".txt";
+string filePath = Console.ReadLine()!;
 FileInfo fileInfo = new FileInfo(filePath);
 
 if (File.Exists(filePath))
